@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Aurora: café, postres y buenos momentos.">
+  <title>Café Aurora | Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html" aria-label="Café Aurora inicio"><span class="logo-mark">☕</span> Café Aurora</a>
+    <nav aria-label="Navegación principal">
+      <a class="active" href="index.html">Inicio</a>
+      <a href="menu.html">Nuestro menú</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">UN MOMENTO PARA TI</p>
+        <h1>El aroma de algo <em>especial.</em></h1>
+        <p class="hero-text">Café preparado con cariño, postres artesanales y un espacio para disfrutar sin afán.</p>
+        <div class="actions">
+          <a class="button button-primary" href="menu.html">Explorar el menú</a>
+          <button class="button button-light" id="welcomeBtn" type="button">Descubrir más</button>
+        </div>
+        <p id="welcomeMessage" class="notice" aria-live="polite"></p>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85" alt="Taza de café en una cafetería acogedora">
+        <div class="image-tag">Hecho con cariño ♡</div>
+      </div>
+    </section>
+
+    <section class="section" id="favoritos">
+      <div class="section-heading">
+        <div><p class="eyebrow">PARA DISFRUTAR</p><h2>Los favoritos de la casa</h2></div>
+        <a class="text-link" href="menu.html">Ver todo el menú ↗</a>
+      </div>
+      <div class="cards">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85" alt="Café latte servido en una taza">
+          <div class="card-body"><span class="category">CAFÉ</span><h3>Latte Aurora</h3><p>Espresso suave con leche cremosa.</p><strong>$8.500 COP</strong></div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85" alt="Torta de chocolate decorada">
+          <div class="card-body"><span class="category">POSTRE</span><h3>Torta de chocolate</h3><p>Un clásico húmedo y delicioso.</p><strong>$9.000 COP</strong></div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85" alt="Pan artesanal recién horneado">
+          <div class="card-body"><span class="category">PANADERÍA</span><h3>Pan artesanal</h3><p>Recién horneado cada mañana.</p><strong>$5.000 COP</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <p>“Los mejores momentos empiezan con una buena taza de café.”</p>
+      <a class="button button-outline" href="menu.html">Encuentra tu favorito</a>
+    </section>
+  </main>
+
+  <footer><a class="logo footer-logo" href="index.html">☕ Café Aurora</a><p>Un café, una pausa, un buen momento.</p><small>Proyecto académico de desarrollo web · 2026</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
